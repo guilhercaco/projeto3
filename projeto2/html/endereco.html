@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFM</title>
+    <link rel="stylesheet" href="../css/endereco.css">
+    <link rel="icon" href="../imagem/logo1.png">
+</head>
+<body>
+    
+    <div class="retangulo">
+        <header>
+            <h1>ENDEREÇO</h1>
+            <p>ENTRE EM CONTATO CONOSCO</p>
+        </header>
+
+<form id="formEndereco">
+    <div class="campo">
+        <label for="cep">CEP:</label>
+        <input
+            type="text"
+            id="cep"
+            name="cep"
+            placeholder="00000-000"
+            maxlength="9"
+            required
+        >
+    </div>
+
+    <div class="campo">
+        <label for="rua">RUA:</label>
+        <input
+            type="text"
+            id="rua"
+            name="rua"
+            placeholder="Digite sua rua"
+            required
+        >
+    </div>
+
+    <div class="campo">
+        <label for="complemento">COMPLEMENTO:</label>
+        <textarea
+            id="complemento"
+            name="complemento"
+            placeholder="Casa, apartamento, número..."
+        ></textarea>
+    </div>
+
+    <button type="submit">ENVIAR</button>
+
+    <div>
+        <p class="tx2">
+            Quer voltar para o site?
+            <a href="index.html">Clique aqui</a>
+        </p>
+    </div>
+</form>
+    
+</div>
+    <script src="../js/cep.js"></script>
+</body>
+</html>
