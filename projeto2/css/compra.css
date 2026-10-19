@@ -197,9 +197,9 @@ body{
     border-radius: 15px;
 }
 .linha1{
-    width: 100%;
+    width: 180% !important;
     margin: 0;
-    height: 8px;
+    height: 16px !important;
     background-color: #000;
     align-items: center; 
 }
@@ -223,21 +223,33 @@ body{
     width: 100%;
 }
 
-.carrinho{
-    margin: 0;
-    width: 100%;
+.carrinho {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    box-sizing: border-box;
 }
+
+.p2 {
+    flex: 1;
+    min-height: 0;
+}
+
+.confirma {
+    margin-top: auto;
+    width: 100%;
+    flex-shrink: 0;
+    background-color: white; 
+}
+
 .pagamento {
+    width: 165% !important;
+    height: 150px; 
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    padding: 15px 25px;
-    border-top: 4px solid black;
+    padding: 0 55px 0 25px; 
+    box-sizing: border-box;
     background-color: white;
 }
 
@@ -246,21 +258,18 @@ body{
     font-size: 24px;
     font-weight: bold;
     text-align: left;
-    flex: 1;
 }
 
-.pagamento .linha2 {
-    width: 3px;
-    height: 60px;
-    margin-left: 600px;
-    position: absolute;
-    background-color: #777;
+.linha2 {
+     width: 2% !important; 
+    height:150px; 
+    background-color: #000000; 
+    margin: 0 30px; 
     flex-shrink: 0;
 }
 
 .CU {
-    margin: 0;
-    margin-right: 80px;
+     margin: 0;
     width: 180px;
     height: 60px;
     font-size: 24px;
