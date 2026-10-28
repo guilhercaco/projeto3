@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  position: 0;
+  cursor:grab;
+  font-family:Helvetica, sans-serif,Arial;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #439D4E; 
+  
+}
+.cadastro{
+    margin: 0;
+    margin-top: 4%;
+    height: 680px;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    background-color: #D9D9D9;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+.cadastro img{
+    height: 210px;
+    width: 95%;
+    margin: 0;
+    margin-left:10;
+    margin-bottom: 25px;
+}
+.text input{
+    margin: 0;
+    margin-left: 9%;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 80%;
+    font-size: 20px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    
+}
+.botao{
+    margin-left: 30%;
+    height: 70px;
+    width: 35%;
+    color: #fff;
+    background-color: #0F6C86;
+    border: 3px solid #000;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+.botao:active {
+  background-color: #555555;
+  cursor: grabbing;
+}
+.tx1{
+    font-size: 14px;
+    margin-left:35%;
+    margin-bottom:5px;
+}
+.tx2{
+    font-size: 14px;
+    margin-left:31%;
+}
+.tx1 a{
+    cursor: grabbing;
+    color: #EB8933;
+}
+.tx2 a{
+    color: #EB8933;
+    cursor: grabbing;
+}

@@ -1,0 +1,281 @@
+*{
+  margin:0;
+  position: 0;
+  cursor:grab;
+  font-family:Helvetica, sans-serif,Arial;
+}
+body{
+  background-color: #439D4E; 
+  
+  
+}
+.logo{
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  height: 65px;
+  border:2px #fff;
+  border-bottom:2px solid #fff;
+}
+.logo h3{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.verde{
+    color:#0364ff ;
+} 
+.branco{
+    color: #439D4E;
+}
+.informacao{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    gap: 2%;
+  
+}
+.informacao a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor:unset;
+  
+}
+.a1{
+    margin-bottom: 17px;
+}
+.informacao img{
+    height: 30px;
+    
+}
+.barra-pesquisa input{
+    color: #000000;
+    width: 400px;        
+    height: 25px;        
+    border: 3px #000; 
+    border-left: 4px solid #000;
+    border-radius: 10px;
+    padding: 0 10px;
+       
+}
+.barra-pesquisa button{
+    height: 25px;
+    border: 3px #000;
+    border-right: 4px solid #000;
+    border-radius:0 10px;
+}
+.barra-pesquisa button:active {
+   
+  background-color: #555555;
+  cursor: grabbing;
+}
+
+.tudo {
+    margin: 25px 5% 0;
+    width: 90%;
+    min-height: 800px;
+    background-color: #c4c4c4;
+    display: flex;
+    border: 8px solid #000;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.p1 {
+    width: 40%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1 h1,
+.p2 h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.linha {
+    width: 8px;
+    flex-shrink: 0;
+    background-color: #000;
+    align-self: stretch;
+}
+
+.p2 {
+    min-width: 0;
+    padding: 25px;
+    width: 100%;
+}
+
+.forma {
+    width: 90%;
+    min-height: 120px;
+    margin-top: 25px;
+    padding: 15px;
+    border: 4px solid #000;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-pix {
+    font-size: 28px;
+    font-weight: bold;
+    color: #008f68;
+}
+
+.indicador {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+
+.verde {
+    background-color: #00c853;
+}
+
+.forma p {
+    font-size: 16px;
+}
+
+.cartoes {
+    position: relative;
+    width: 100px;
+    height: 65px;
+}
+
+.cartao-fundo,
+.cartao-frente {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.cartao-fundo {
+    top: 0;
+    left: 15px;
+    background-color: #777;
+}
+
+.cartao-frente {
+    top: 12px;
+    left: 0;
+    padding: 6px;
+    background-color: #fff;
+    font-size: 10px;
+}
+
+.linhas {
+    width: 35px;
+    height: 5px;
+    margin-top: 8px;
+    background-color: #777;
+}
+
+#produtos-selecionados {
+    margin-top: 25px;
+    background-color: #fff;
+    border: solid #000;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    overflow-y: auto;
+    height: fit-content;
+    scroll-behavior: smooth;
+}
+.voltar{
+    background-color:#439D4E ;
+    border-radius: 15px;
+}
+.linha1{
+    width: 180% !important;
+    margin: 0;
+    height: 16px !important;
+    background-color: #000;
+    align-items: center; 
+}
+.linhas {
+    width: 35px;
+    height: 5px;
+    margin-top: 8px;
+    background-color: #777;
+}
+
+.confirma{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.confirma div{
+    width: 100%;
+}
+
+.carrinho {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.p2 {
+    flex: 1;
+    min-height: 0;
+}
+
+.confirma {
+    margin-top: auto;
+    width: 100%;
+    flex-shrink: 0;
+    background-color: white; 
+}
+
+.pagamento {
+    width: 165% !important;
+    height: 150px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45% 0 20%; 
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#valor-total {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.linha2 {
+     width: 2% !important; 
+    height:150px; 
+    background-color: #000000; 
+    margin: 0 30px; 
+    flex-shrink: 0;
+}
+
+.CU {
+     margin: 0;
+    width: 180px;
+    height: 60px;
+    font-size: 24px;
+    background-color: #439D4E;
+    border: 4px solid #000;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
